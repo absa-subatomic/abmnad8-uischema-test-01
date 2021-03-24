@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ui-schema"
+  description: "ui schema test"
+  annotations:
+    github.com/project-slug: absa-subatomic/abmnad8-uischema-test-01
+    backstage.io/techdocs-ref: url:https://github.com/absa-subatomic/abmnad8-uischema-test-01
+spec:
+  type: other
+  lifecycle: experimental
+  owner: "guest"
